@@ -1,0 +1,29 @@
+.main {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+
+  background: #F9FAFC;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.main .main__content {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+
+  margin-top: 68px;
+  margin-bottom: 92px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: inherit;
+}
+
+.main .main__cards {}
+
+.main .main__controls {}

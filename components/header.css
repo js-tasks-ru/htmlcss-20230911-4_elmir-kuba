@@ -1,0 +1,38 @@
+.header {
+  padding-top: 24px;
+}
+
+.header .header__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.header .header__logo-and-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .header__logo {
+}
+
+.header .header__nav-and-controls {
+  display: flex;
+  column-gap: 56px;
+}
+
+.header .header__nav {}
+
+.header .header__controls {}
+
+.header .header__title {
+  color: var(--black, #212429);
+
+  /* h1 */
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 64px; /* 128% */
+
+  margin-top: 38px;
+  margin-bottom: 40px;
+}
