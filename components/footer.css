@@ -1,7 +1,4 @@
 .footer {
-}
-
-.footer .footer__content {
   padding-top: 72px;
   padding-bottom: 136px;
 
@@ -11,7 +8,7 @@
   row-gap: 32px;
 }
 
-.footer .header__about {
+.header__about {
   color: var(--black, #212429);
 
   /* h2 */
@@ -19,11 +16,9 @@
   font-style: normal;
   font-weight: 500;
   line-height: 48px; /* 126.316% */
-
-  width: fit-content;
 }
 
-.footer .footer__description {
+.footer__description {
   color: var(--black, #212429);
   text-align: center;
 
@@ -33,6 +28,6 @@
   font-weight: 400;
   line-height: 24px; /* 150% */
 
-  width: 600px;
+  max-width: 640px;
   text-align: center;
 }
