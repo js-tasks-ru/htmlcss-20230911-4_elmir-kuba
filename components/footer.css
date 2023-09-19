@@ -2,13 +2,10 @@
   padding-top: 72px;
   padding-bottom: 136px;
 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  row-gap: 32px;
+  text-align: center;
 }
 
-.header__about {
+.footer__about {
   color: var(--black, #212429);
 
   /* h2 */
@@ -30,4 +27,9 @@
 
   max-width: 640px;
   text-align: center;
+
+  margin-top: 32px;
+
+  margin-left: auto;
+  margin-right: auto;
 }

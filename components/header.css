@@ -1,26 +1,13 @@
 .header {
   padding-top: 24px;
-
-  display: flex;
-  flex-direction: column;
 }
 
 .header__logo-and-nav {
-  display: flex;
-  justify-content: space-between;
 }
 
 .header__logo {
 }
 
-.header__nav-and-controls {
-  display: flex;
-  column-gap: 56px;
-}
-
-.header__nav {}
-
-.header__controls {}
 
 .header__title {
   color: var(--black, #212429);

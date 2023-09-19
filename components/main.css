@@ -1,19 +1,20 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  row-gap: 64px;
-
   padding-top: 68px;
   padding-bottom: 92px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
 
   height: inherit;
 }
 
-.main__cards {}
+.main__cards {
+  width: fit-content;
 
-.main__controls {}
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main__controls {
+  width: fit-content;
+
+  margin-left: auto;
+  margin-right: auto;
+}
