@@ -1,0 +1,35 @@
+.footer {
+  padding-top: 72px;
+  padding-bottom: 136px;
+
+  text-align: center;
+}
+
+.footer__about {
+  color: var(--black, #212429);
+
+  /* h2 */
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 126.316% */
+}
+
+.footer__description {
+  color: var(--black, #212429);
+  text-align: center;
+
+  /* p */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+
+  max-width: 640px;
+  text-align: center;
+
+  margin-top: 32px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
