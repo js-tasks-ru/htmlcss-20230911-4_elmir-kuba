@@ -1,45 +1,19 @@
 /* Стилизация аккордеона */
 
-/* summary {
-  display: block;
-}
-
-summary::-webkit-details-marker {
-  display: none;
-}
-
-summary .marker {
-
-}
-
-details[open] {
-  transform: translate(90deg);
-} */
-
-.wrapper {
-  margin-top: 100px;
-}
-
-.mt-class {
-  margin-top: 8px;
-}
-
 .accordion {
   border: 1px solid var(--grey-3);
   border-radius: 8px;
   overflow: hidden;
-  transition: height 0.2s ease-out;
   width: 579px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.accordion__summary {
-  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
   padding-left: 32px;
   padding-right: 32px;
+}
+
+.accordion__summary {
+  display: block;
   outline: none;
   cursor: pointer;
   position: relative;
@@ -53,8 +27,4 @@ details[open] {
 }
 
 .accordion__hide-content {
-    padding-top: 16px;
-    padding-bottom: 32px;
-    padding-left: 32px;
-    padding-right: 32px;
 }
