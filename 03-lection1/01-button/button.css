@@ -1,9 +1,5 @@
 /* Стилизация кнопки */
 
-.wrapper  {
-  padding: 100px;
-}
-
 .button {
   text-align: center;
   /* font-family: Roboto; */
@@ -22,8 +18,13 @@
   padding-right: 62px;
 }
 
+.button:hover {
+  cursor: pointer;
+}
+
 .button[disabled] {
   opacity: 0.5;
+  pointer-events: none;
 }
 
 .button_primary {
@@ -33,7 +34,6 @@
 
 .button_primary:not(:disabled):hover {
   background: #2342C0;
-  cursor: pointer;
 }
 
 .button_secondary {
@@ -43,7 +43,6 @@
 
 .button_secondary:not(:disabled):hover {
   background: #5028C6;
-  cursor: pointer;
 }
 
 .button_alternate {
@@ -54,5 +53,4 @@
 
 .button_alternate:not(:disabled):hover {
   border: 1px solid var(--Black, #212429);
-  cursor: pointer;
 }
