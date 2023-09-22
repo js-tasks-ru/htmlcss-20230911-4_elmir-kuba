@@ -13,6 +13,14 @@
   padding-right: 32px;
 }
 
+.accordion__details + .accordion__details {
+  margin-top: 8px;
+}
+
+.accordion__details[open] {
+    padding-bottom: 32px;
+}
+
 .accordion__summary {
   display: block;
   outline: none;
@@ -28,4 +36,5 @@
 }
 
 .accordion__hide-content {
+  margin-top: 16px;
 }
