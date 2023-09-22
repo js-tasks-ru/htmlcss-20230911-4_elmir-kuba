@@ -1,0 +1,27 @@
+.wrapper {
+  margin-top: 100px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  width: 579px;
+}
+
+.mt-class {
+  margin-top: 8px;
+}
+
+/* summary {
+  display: block;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary .marker {
+
+}
+
+details[open] {
+  transform: translate(90deg);
+} */
