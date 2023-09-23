@@ -1,5 +1,11 @@
 @import 'normalize.css';
 @import '../fonts/fonts.css';
+@import '../../components/wrapper/wrapper.css';
+@import '../../components/header/header.css';
+@import '../../components/main/main.css';
+@import '../../components/footer/footer.css';
+@import '../../components/card/card.css';
+@import '../../03-lection1/01-button/button.css';
 
 :root {
     --white: #ffffff;
@@ -27,7 +33,9 @@
 }
 
 html, body {
-  font-family: 'Roboto', sans-serif;
-
   height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
