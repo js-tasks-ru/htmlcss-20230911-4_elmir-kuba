@@ -13,6 +13,7 @@
   flex-direction: column;
   row-gap: 64px;
   align-items: center;
+  justify-content: center;
 
   padding-top: 68px;
   padding-bottom: 92px;
@@ -24,5 +25,19 @@
   gap: 30px;
 }
 
+.main__card {
+  width: 350px;
+  height: 367px;
+}
+
 .main__controls {
+}
+
+.main__controls {}
+
+.main__button {
+  width: 185px;
+  height: 48px;
+  padding-left: 53px;
+  padding-right: 52px;
 }
