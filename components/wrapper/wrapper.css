@@ -1,0 +1,13 @@
+.wrapper {
+  min-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper__content {
+  width: 1110px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
