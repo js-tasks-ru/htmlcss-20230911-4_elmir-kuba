@@ -33,20 +33,23 @@
   display: flex;
   flex-direction: column;
   row-gap: 8px;
+
+  width: 100%;
 }
 
-.skeleton__title-1 {
-  width: 172px;
+.skeleton__title {
   height: 20px;
 
   background: linear-gradient(93deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
 }
 
-.skeleton__title-2 {
-  width: 257px;
-  height: 20px;
+.skeleton__title_short {
+  width: 32.39171375%;
 
-  background: linear-gradient(93deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.skeleton__title_half {
+  width: 48.3992467%;
 }
 
 .skeleton__content {
