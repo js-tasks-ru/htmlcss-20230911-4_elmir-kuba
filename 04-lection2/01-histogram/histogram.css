@@ -1,8 +1,6 @@
 .histogram {
   font-size: 16px;
-}
 
-.histogram {
   display: flex;
   flex-direction: column;
   row-gap: 2.4375em;
@@ -22,12 +20,12 @@
   row-gap: 0.375em;
 }
 
-.histogram__header-question-and-link {
+.histogram__header-top {
   display: flex;
   justify-content: space-between;
 }
 
-.histogram__header-question {
+.histogram__title {
   color: var(--black, #212429);
 
   /* p */
@@ -38,7 +36,7 @@
   line-height: 24px; /* 150% */
 }
 
-.histogram__header-link {
+.histogram__link {
   color: #4263EB;
 
   /* p */
@@ -49,7 +47,7 @@
   line-height: 24px; /* 150% */
 }
 
-.histogram__header-value {
+.histogram__total {
   color: var(--black, #212429);
 
   /* h4 */
@@ -70,63 +68,38 @@
 
 .histogram__element {
   width: 0.5625em;
-  height: 100%;
 
   background: #4263EB;
 }
 
 .histogram__element_full {
-  width: 0.5625em;
   height: 100%;
-
-  background: #4263EB;
 }
 
 .histogram__element_70percent {
-  width: 0.5625em;
   height: 70%;
-
-  background: #4263EB;
 }
 
 .histogram__element_44percent {
-  width: 0.5625em;
   height: 44%;
-
-  background: #4263EB;
 }
 
 .histogram__element_78percent {
-  width: 0.5625em;
   height: 78%;
-
-  background: #4263EB;
 }
 
 .histogram__element_60percent {
-  width: 0.5625em;
   height: 60%;
-
-  background: #4263EB;
 }
 
 .histogram__element_22percent {
-  width: 0.5625em;
   height: 22%;
-
-  background: #4263EB;
 }
 
 .histogram__element_90percent {
-  width: 0.5625em;
   height: 90%;
-
-  background: #4263EB;
 }
 
 .histogram__element_34percent {
-  width: 0.5625em;
   height: 34%;
-
-  background: #4263EB;
 }
