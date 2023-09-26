@@ -6,7 +6,7 @@
   border: 1px solid var(--gray-3, #ACB5BD);
   border-radius: 8px;
 
-  width: fit-content;
+  /* width: 100%; */
 
   padding-top: 24px;
   padding-left: 24px;
@@ -59,7 +59,7 @@
 }
 
 .skeleton__content-item {
-  width: 515px;
+  width: 100%;
   height: 20px;
 
   background: linear-gradient(93deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
