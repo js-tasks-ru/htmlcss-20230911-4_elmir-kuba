@@ -1,15 +1,8 @@
-.wrapper {
+.wrap {
   width: 100%;
   height: 100%;
 
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.code-here {
-  height: 77px;
-  width: 129px;
-
-  display: flex;
 }

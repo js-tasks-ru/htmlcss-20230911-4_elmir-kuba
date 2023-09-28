@@ -1,56 +1,56 @@
 .tooltip {
-  width: 100%;
-  height: 100%;
-
-  display: flex;
-  justify-content: center;
-  align-items: end;
+  width: fit-content;
+  height: fit-content;
 
   position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.tooltip__icon {
-  display: block;
+.tooltip__help-icon {
+  max-width: 24px;
+  max-height: 24px;
 
   cursor: pointer;
 }
 
-.tooltip__icon:hover + .tooltip__help-info {
+.tooltip__help-icon:hover + .tooltip__help-info {
   display: block;
 }
 
 .tooltip__help-info {
-  display: none;
-
-  position: absolute;
-  top: 0;
-
-  color: var(--gray-2, #DDE2E5);
+  color: var(--Gray-2, #DDE2E5);
   text-align: center;
 
-  /* p */
-  /* font-family: Inter; */
+  text-wrap: nowrap;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 150% */
-
-  border-radius: 10px;
-  background: var(--black, #212429);
-
-  /* Card Shadow */
-  box-shadow: 0px 2px 4px 0px rgba(33, 36, 41, 0.05);
+  line-height: 24px;
 
   padding-top: 13px;
   padding-bottom: 8px;
   padding-left: 21px;
   padding-right: 21px;
+
+  border-radius: 10px;
+  background: #4263EB;
+
+  /* Card Shadow */
+  box-shadow: 0px 2px 4px 0px rgba(33, 36, 41, 0.05);
+
+  position: absolute;
+  top: -53px;
+
+  display: none;
 }
 
 .tooltip__help-info::after {
   content: '';
   border: 7px solid transparent;
-  border-top: 7px solid var(--black);
+  border-top: 7px solid #4263EB;
 
   position: absolute;
   top: 45px;
