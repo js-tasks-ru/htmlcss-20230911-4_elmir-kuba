@@ -10,6 +10,9 @@
 @import '../../components/footer/footer.css';
 
 @import '../../components/card/card.css';
+@import '../../components/component-page/component-page.css';
+@import '../../components/components-list/components-list.css';
+@import '../../components/component-content/component-content.css';
 
 :root {
     --white: #ffffff;

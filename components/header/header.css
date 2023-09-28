@@ -22,3 +22,7 @@
   font-weight: 500;
   line-height: 64px; /* 128% */
 }
+
+.header__to-component-page {
+  height: 82px;
+}
