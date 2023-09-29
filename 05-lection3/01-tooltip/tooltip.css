@@ -1,27 +1,25 @@
 .tooltip {
-  width: fit-content;
-  height: fit-content;
+  display: inline-block;
 
   position: relative;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.tooltip__help-icon {
-  max-width: 24px;
-  max-height: 24px;
-
+.tooltip__trigger {
   cursor: pointer;
 }
 
-.tooltip__help-icon:hover + .tooltip__help-info {
-  display: block;
-}
+.tooltip__info {
+  border-radius: 10px;
+  background: #4263EB;
 
-.tooltip__help-info {
-  color: var(--Gray-2, #DDE2E5);
+  box-shadow: 0px 2px 4px 0px rgba(33, 36, 41, 0.05);
+
+  padding-top: 13px;
+  padding-bottom: 8px;
+  padding-left: 21px;
+  padding-right: 21px;
+
+  color: var(--gray-2, #DDE2E5);
   text-align: center;
 
   text-wrap: nowrap;
@@ -30,30 +28,26 @@
   font-weight: 400;
   line-height: 24px;
 
-  padding-top: 13px;
-  padding-bottom: 8px;
-  padding-left: 21px;
-  padding-right: 21px;
-
-  border-radius: 10px;
-  background: #4263EB;
-
-  /* Card Shadow */
-  box-shadow: 0px 2px 4px 0px rgba(33, 36, 41, 0.05);
-
   position: absolute;
-  top: -53px;
+  bottom: calc(100% + 6px);
+  left: 50%;
+  transform: translateX(-50%);
 
   display: none;
 }
 
-.tooltip__help-info::after {
+.tooltip__trigger:hover ~ .tooltip__info {
+  display: block;
+}
+
+.tooltip__info::after {
   content: '';
-  border: 7px solid transparent;
-  border-top: 7px solid #4263EB;
+
+  border: 14px solid transparent;
+  border-top: 6px solid #4263EB;
 
   position: absolute;
-  top: 45px;
+  top: 100%;
   left: 50%;
   transform: translateX(-50%);
 }
