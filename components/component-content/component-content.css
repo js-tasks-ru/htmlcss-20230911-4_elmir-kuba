@@ -1,1 +1,26 @@
-.component-content {}
+.component-content {
+  background-color: #FFF;
+  filter: drop-shadow(0px 2px 4px rgba(33, 36, 41, 0.05));
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 48px;
+  padding-right: 48px;
+
+  display: grid;
+  grid-template-rows: auto 1fr;
+  row-gap: 24px;
+}
+
+.component-content__title {
+  color: var(--Gray-4, #495057);
+
+  /* h3 */
+  /* font-family: Inter; */
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; /* 135.714% */
+}
+
+.component-content__mount {}
