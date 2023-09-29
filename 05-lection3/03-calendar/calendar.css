@@ -1,34 +1,16 @@
 .calendar {
-  width: 30%;
-
-  /* padding-top: 28px; */
-}
-
-.calendar__hack {
   width: 100%;
-
-  padding-bottom: 110%;
-
-  position: relative;
+  max-width: 304px;
 
   border: 1px solid var(--grey-3);
   border-radius: 8px;
-}
-
-.calendar__overall-wrapper {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
-  padding-top: 8.641975309%;
-  padding-left: 8.552631579%;
-  padding-right: 8.552631579%;
-  padding-bottom: 9.87654321%;
+  padding-top: 28px;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 32px;
 
   display: grid;
-  align-content: space-between;
+  row-gap: 24px;
 }
 
 .calendar__title {
