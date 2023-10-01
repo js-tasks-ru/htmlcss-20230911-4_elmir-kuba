@@ -2,8 +2,6 @@
   border: 1px solid var(--gray-3, #ACB5BD);
   border-radius: 8px;
 
-  width: 579px;
-
   padding-top: 24px;
   padding-left: 24px;
   padding-right: 40px;
@@ -30,7 +28,6 @@
 .skeleton__title {
   display: grid;
   row-gap: 8px;
-  height: fit-content;
 }
 
 .skeleton__body {
@@ -45,9 +42,9 @@
 }
 
 .skeleton__content_title-short {
-  width: 172px;
+  width: 33.39805825%;
 }
 
 .skeleton__content_title-description {
-  width: 257px;
+  width: 49.90291262%;
 }
