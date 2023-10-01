@@ -23,6 +23,8 @@
   line-height: 64px; /* 128% */
 }
 
-.header__to-component-page {
-  height: 82px;
+.header_component-page {
+  padding-bottom: 39.6px;
+
+  background: #F9FAFC;
 }
