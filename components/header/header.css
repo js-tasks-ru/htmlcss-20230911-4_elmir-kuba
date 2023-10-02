@@ -1,0 +1,24 @@
+.header {
+  background: #FFF;
+}
+
+.header__content {
+  padding-top: 24px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
+.header__logo-and-nav-and-controls {}
+
+.header__title {
+  color: var(--black, #212429);
+
+  /* h1 */
+  /* font-family: Inter; */
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 64px; /* 128% */
+}
