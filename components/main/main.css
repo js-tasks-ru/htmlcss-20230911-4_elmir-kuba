@@ -41,8 +41,7 @@
 
   display: grid;
   grid-template-rows: 1fr auto;
-  row-gap: 92px;
-  padding-bottom: 56px;
+  /* padding-bottom: 56px; */
 }
 
 .main__component-content {
@@ -62,18 +61,4 @@
 
 .main__selected-component {
   grid-area: componentContent;
-}
-
-.main__footer {
-  color: var(--ray-3, #ACB5BD);
-
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 18px;
-  letter-spacing: 0.48px;
-  text-transform: uppercase;
-
-  display: grid;
-  justify-content: center;
 }
