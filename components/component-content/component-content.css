@@ -24,3 +24,29 @@
 }
 
 .component-content__mount {}
+
+
+@media only screen and (max-width: 550px) {
+  .component-content {
+    background-color: #FFF;
+    filter: drop-shadow(0px 2px 4px rgba(33, 36, 41, 0.05));
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+    display: grid;
+    grid-template-rows: auto 1fr;
+    row-gap: 24px;
+  }
+
+  .component-content__title {
+    color: var(--gray-4, #495057);
+    /* h4 */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 130% */
+  }
+}
