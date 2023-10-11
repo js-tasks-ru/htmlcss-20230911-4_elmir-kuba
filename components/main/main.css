@@ -99,3 +99,10 @@
 
   .main__component-page {}
 }
+
+@media only screen and (max-width: 475px) {
+  .main__component-content {
+    background-color: green;
+    width: 100%;
+  }
+}

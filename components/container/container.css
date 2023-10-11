@@ -11,4 +11,9 @@
     padding-left: 16px;
     padding-right: 16px;
   }
+
+  .container__component-page {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
