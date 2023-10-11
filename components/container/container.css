@@ -12,6 +12,11 @@
     padding-right: 16px;
   }
 
+
+}
+
+
+@media only screen and (max-width: 475px) {
   .container__component-page {
     padding-left: 0px;
     padding-right: 0px;

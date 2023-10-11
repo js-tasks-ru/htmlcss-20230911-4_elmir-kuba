@@ -47,19 +47,6 @@
   }
 }
 
-
-@media only screen and (max-width: 648px) {
-  .main__cards {
-    justify-content: center;
-  }
-}
-
-@media only screen and (max-width: 475px) {
-  .main__cards {
-    grid-template-columns: repeat(auto-fill, minmax(164px, 1fr));
-  }
-}
-
 .main__component-page {
   flex-grow: 1;
   background: #F9FAFC;
@@ -88,6 +75,12 @@
   grid-area: componentContent;
 }
 
+@media only screen and (max-width: 648px) {
+  .main__cards {
+    justify-content: center;
+  }
+}
+
 @media only screen and (max-width: 550px) {
   .main__component-content {
     display: block;
@@ -101,6 +94,10 @@
 }
 
 @media only screen and (max-width: 475px) {
+  .main__cards {
+    grid-template-columns: repeat(auto-fill, minmax(164px, 1fr));
+  }
+
   .main__component-content {
     background-color: green;
     width: 100%;
