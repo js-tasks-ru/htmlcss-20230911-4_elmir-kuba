@@ -2,6 +2,10 @@
   background: #FFF;
 }
 
+.header_component-page {
+  background: #F9FAFC;
+}
+
 .header__content {
   padding-top: 24px;
 
