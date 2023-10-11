@@ -89,3 +89,15 @@
 .main__selected-component {
   grid-area: componentContent;
 }
+
+@media only screen and (max-width: 550px) {
+  .main__component-content {
+    display: block;
+  }
+
+  .main__components-list {
+    display: none;
+  }
+
+  .main__component-page {}
+}
