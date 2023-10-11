@@ -44,3 +44,25 @@
     width: 100%;
   }
 }
+
+.footer__component-page {
+  background: #F9FAFC;
+}
+
+.footer__component-content {
+  color: var(--gray-3, #ACB5BD);
+  /* h5 */
+  /* font-family: Inter; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 150% */
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+
+  display: grid;
+  justify-content: center;
+
+  margin-top: 92px;
+  margin-bottom: 56px;
+}
