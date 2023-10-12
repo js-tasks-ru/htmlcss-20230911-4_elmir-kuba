@@ -41,7 +41,7 @@
 
 @media only screen and (max-width: 1150px) {
   .footer__desc {
-    width: 100%;
+    /* width: 100%; */
   }
 }
 
