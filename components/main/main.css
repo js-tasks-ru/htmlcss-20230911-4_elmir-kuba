@@ -34,3 +34,31 @@
 }
 
 .main__controls {}
+
+.main__component-page {
+  flex-grow: 1;
+  background: #F9FAFC;
+
+  display: grid;
+  grid-template-rows: 1fr auto;
+  /* padding-bottom: 56px; */
+}
+
+.main__component-content {
+  padding-top: 36px;
+
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 229fr 56fr 825fr;
+  grid-template-areas:
+    "componentSelectList . componentContent";
+}
+
+.main__components-list {
+  grid-area: componentSelectList;
+}
+
+.main__selected-component {
+  grid-area: componentContent;
+}
