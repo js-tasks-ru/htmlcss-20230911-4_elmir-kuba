@@ -2,9 +2,7 @@
 .avatar {
   width: 102px;
   height: 102px;
-}
 
-.avatar__inner {
   border-radius: 50%;
 
   overflow: hidden;
