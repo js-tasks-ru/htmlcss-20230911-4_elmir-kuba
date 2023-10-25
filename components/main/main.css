@@ -35,7 +35,7 @@
 .main__controls {
 }
 
-.main__component-page {
+.main_component-page {
   flex-grow: 1;
   background: #F9FAFC;
 
@@ -78,7 +78,7 @@
     display: none;
   }
 
-  .main__component-page {}
+  .main_component-page {}
 }
 
 @media only screen and (max-width: 475px) {
