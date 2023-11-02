@@ -1,0 +1,7 @@
+.wrap543 {
+  height: 100%;
+
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
