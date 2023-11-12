@@ -1,0 +1,31 @@
+.wrap543 {
+  height: 100%;
+
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.inputs-dz {
+  display: grid;
+  row-gap: 13px;
+}
+
+.inputs-dz__title {
+  color: var(--gray-3, #ACB5BD);
+
+  /* h5 */
+  /* font-family: Inter; */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 150% */
+  letter-spacing: 0.48px;
+  text-transform: uppercase;
+}
+
+.inputs-dz__content {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 16px;
+}
